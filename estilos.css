@@ -1,0 +1,60 @@
+.contenedor {
+    width: 300px; 
+    padding: 10px;
+    border: 1px solid whitesmoke; 
+    background-color: white; 
+    margin: 0;
+}
+
+.mensaje-contenedor {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contenido-mensaje {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nombre-hora {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.hora {
+    color: #888;
+    font-size: 12px;
+}
+
+.texto-mensaje {
+    margin: 0;
+    font-size: 14px;
+    word-wrap: break-word; /* Para asegurar que el texto no se salga del contenedor */
+}
+
+.texto-mensaje a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.texto-mensaje a:hover {
+    text-decoration: underline;
+}
+
+body{margin: 0;}
